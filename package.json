@@ -1,8 +1,8 @@
 {
-  "name": "sukushokun4",
+  "name": "sukushokun5",
   "version": "1.0.0",
-  "description": "Capture screenshots and upload to Google Drive",
-  "repository": "git@gighub.com:hitode909/sukushokun4.git",
+  "description": "Capture screenshots and upload to Amazon S3",
+  "repository": "git@gighub.com:hitode909/sukushokun5.git",
   "scripts": {
     "start": "node scripts/server.js",
     "capture": "node scripts/capture.js"
