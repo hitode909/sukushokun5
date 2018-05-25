@@ -15,6 +15,10 @@
       "description": "Bucket name to store captured images",
       "required": true
     },
+    "GOOGLE_CREDENTIAL": {
+      "description": "Credential JSON of service account",
+      "required": true
+    },
     "SPREADSHEET_ID": {
       "description": "ID of Google Spreadsheet. https://docs.google.com/spreadsheets/d/(HERE!!!)/edit",
       "required": true
