@@ -1,5 +1,5 @@
 {
-  "name": "sukushokun4",
+  "name": "sukushokun5",
   "description": "Take screenshots and upload to Amazon S3",
   "repository": "https://github.com/hitode909/sukushokun5",
   "env": {
@@ -14,7 +14,11 @@
     "AWS_S3_BUCKET": {
       "description": "Bucket name to store captured images",
       "required": true
-    }
+    },
+    "SPREADSHEET_ID": {
+      "description": "ID of Google Spreadsheet. https://docs.google.com/spreadsheets/d/(HERE!!!)/edit",
+      "required": true
+    },
     "SCHEDULE": {
       "description": "Schedule to capture images. Default is `0 * * * *` (cron-style syntax)",
       "required": false
@@ -22,10 +26,6 @@
     "NUM_WORKERS": {
       "description": "Number of concurrency. Default is 1",
       "required": false
-    },
-    "TARGETS": {
-      "description": "Name and URIs to capture. 'NAME URI NAME URI...'",
-      "required": true
     }
   },
   "buildpacks": [
