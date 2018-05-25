@@ -11,7 +11,7 @@
       "description": "AWS Access Secret",
       "required": true
     },
-    "AWS_S3_BUCKET": {
+    "AWS_S3_BUCKET_NAME": {
       "description": "Bucket name to store captured images",
       "required": true
     },

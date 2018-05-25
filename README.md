@@ -10,5 +10,5 @@ Sukushokun5 crawls URLs, take screenshots, and upload PNG(PC, smartphone) and PD
 
 ```
 % npm install
-% AWS_ACCESS_ID=... AWS_ACCESS_SECRET=... AWS_S3_BUCKET=... SPREADSHEET_ID=... npm run capture
+% AWS_ACCESS_ID=... AWS_ACCESS_SECRET=... AWS_S3_BUCKET_NAME=... SPREADSHEET_ID=... npm run capture
 ```
